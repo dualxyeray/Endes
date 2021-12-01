@@ -10,7 +10,7 @@ public class DeckCards {
 		String[] values = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
 
 		ArrayList<Card> deck = new ArrayList<Card>();
-//Este bucle te da un palo como corazón o espadas//
+//Este bucle te crea la baraja de cartas //
 		for (int i = 0; i < suits.length; i++) {
 			for (int j = 0; j < values.length; j++) {
 				Card card = new Card(suits[i], values[j]);
